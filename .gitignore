@@ -1,3 +1,54 @@
+# Dependencies
+node_modules/
+.dart_tool/
+.packages
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# Build
+build/
+*.apk
+*.aab
+*.ipa
+*.app
+dist/
+dist-ssr
+
+# Environment
+.env
+.env.local
+.env.production
+*.local
+
+# Flutter
+cashburst_flutter/.flutter-plugins
+cashburst_flutter/.flutter-plugins-dependencies
+cashburst_flutter/.dart_tool/
+cashburst_flutter/build/
+cashburst_flutter/.packages
+cashburst_flutter/pubspec.lock
+
+# Android
+cashburst_flutter/android/.gradle/
+cashburst_flutter/android/app/debug/
+cashburst_flutter/android/app/profile/
+cashburst_flutter/android/app/release/
+*.jks
+*.keystore
+
+# iOS
+cashburst_flutter/ios/Pods/
+cashburst_flutter/ios/.symlinks/
+cashburst_flutter/ios/Flutter/Flutter.framework
+cashburst_flutter/ios/Flutter/Flutter.podspec
+
+# macOS
+.DS_Store
+
 # Logs
 logs
 *.log
@@ -7,16 +58,14 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Coverage
+coverage/
+.nyc_output/
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
+# Misc
+*.bak
+*.tmp
+.cache/
 *.suo
 *.ntvs*
 *.njsproj
